@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url("https://media.istockphoto.com/id/1367972411/photo/backdrop-of-black-cubes-with-luminous-plus-and-minus-symbols-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=pyL80hTOAJCZyp7kHfp8P_x8-e98GMQDy6vK-FSG8rs=");
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 1px solid purple;
+    border-radius: 4px;
+    justify-content: center;
+    background: url("https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM="); 
+    background-size: cover;
+    overflow: hidden;
+    border-color: blue;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  td {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: purple;
+    border-bottom: 1px solid #ccc;
+    border-color:darkgreen;
+    border-radius: 10px;
+  }
+  
+  .multiplication-symbol {
+    color: darkblue;
+    font-size: 20px;
+  }
+  .hai{
+    text-transform: uppercase;
+    font-style:initial;
+    font-family: "Times New Roman", Times, serif;
+    background: slateblue;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+    text-decoration-line: overline underline;
+  }
+  
+  .header-cell {
+    background-color: #e91e63;
+    color:white;
+  }
+  
+  @media screen and (max-width: 480px) {
+    td,
+    th {
+      font-size: 12px;
+    }
+  }
+  
+  
